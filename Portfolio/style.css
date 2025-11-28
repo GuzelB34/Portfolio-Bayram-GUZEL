@@ -1,0 +1,57 @@
+body {
+    margin-inline: 0px;
+    background-color: rgb(231, 231, 231);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.head {
+    background-color: rgb(255, 65, 32);
+    padding-bottom: 1em;
+
+
+}
+
+h2 {
+    color:whitesmoke;
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 0px;
+}
+
+.nav {
+    border-width: 2px;;
+    border-style:inset;
+}
+
+.buttons {
+    margin-top: -1.5em;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: auto;
+    background-color: rgb(58, 58, 58);
+    color: azure;
+}
+
+a {
+    color: black;
+    background-color: rgb(255, 45, 8);
+    text-decoration: none;
+    color: whitesmoke;
+    border: ;
+}
+
+
+p {
+    font-size:x-large;
+    background-color: rgba(240, 255, 255, 0.445);
+    margin-top: auto;
+    margin-bottom: auto;
+}
