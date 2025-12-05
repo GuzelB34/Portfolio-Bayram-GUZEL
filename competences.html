@@ -4,58 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compétences</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
-    body{
-      margin:0;
-      font-family:Arial;
-      background:#f2f2f2;
-      color:#222;
-    }
-    header{
-      background:rgb(255, 69, 36);
-      color: white;
-      padding:15px;
-      text-align:center;
-      font-size:20px;
-      font-weight:bold;
-      border-bottom:1px solid #ddd;
-    }
-    nav{text-align:center;
-      margin-top:10px;
-    }
-    nav a{margin:10px;
-      text-decoration:none;
-      color:#444;
-      font-weight:600;
-      font-size:14px;
-    }
-    .section{padding:25px}
-    .card{background:white;
-      padding:15px;
-      border:1px solid #ddd;
-      border-radius:6px;
-      margin-bottom:15px;
-    }
+    body{font-family:Arial; color:#222; background:#f9f9f9;}
+    .nav a:hover{color:#ff4524;}
+    .section{margin:20px; border-radius:8px;}
+    .card{margin-bottom:20px; padding:20px; border-left:5px solid #ff4524; background:#fff;}
+    h3{color:#ff4524;}
+    ul{line-height:1.6; margin:10px 0 0 20px;}
   </style>
 </head>
 <body>
 
-<header>Compétences</header>
+<header class="w3-container w3-padding w3-center" style="background:#ff4524; color:white; border-bottom:3px solid #222;">
+  <h2 class="w3-margin-0">Compétences</h2>
+</header>
 
-<nav>
-  <a href="index.html">Accueil</a>
-  <a href="projets.html">Projets</a>
-  <a href="competences.html">Compétences</a>
-  <a href="contact.html">Contact</a>
+<nav class="w3-center w3-padding nav">
+  <a class="w3-margin w3-button w3-white w3-border" href="index.html">Accueil</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="projets.html">Projets</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="competences.html">Compétences</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="contact.html">Contact</a>
 </nav>
 
-<div class="section">
-  <div class="card">
-    <p>HTML — Lorem ipsum</p>
-    <p>CSS — Lorem ipsum</p>
-    <p>Python — Lorem ipsum</p>
-  </div>
+<div class="section card">
+  <h3>Développement Web</h3>
+  <ul>
+    <li>HTML & CSS - création de sites clairs et responsive</li>
+    <li>Utilisation de W3CSS pour styliser rapidement des pages et composants</li>
+    <li>Organisation du contenu et design simple mais efficace</li>
+    <li>Expérience utilisateur et ergonomie</li>
+  </ul>
 </div>
+
+<div class="section card">
+  <h3>Programmation</h3>
+  <ul>
+    <li>Python - scripts et projets interactifs</li>
+    <li>Arduino, ESP8266/ESP32 - projets IoT et électroniques</li>
+    <li>Gestion de capteurs, affichages et contrôle à distance</li>
+    <li>Application de concepts de programmation dans divers contextes</li>
+  </ul>
+</div>
+
+<div class="section card">
+  <h3>Outils & Logiciels</h3>
+  <ul>
+    <li>Git & GitHub - contrôle de versions et collaboration</li>
+    <li>VS Code - développement et tests efficaces</li>
+    <li>VirtualBox & VMware - machines virtuelles et tests de systèmes</li>
+  </ul>
+</div>
+
+<div class="section card">
+  <h3>Soft Skills & Créativité</h3>
+  <ul>
+    <li>Organisation de projets et gestion du temps</li>
+    <li>Résolution de problèmes complexes et innovation</li>
+    <li>Design et interfaces agréables pour l’utilisateur</li>
+  </ul>
+</div>
+
+<footer class="w3-container w3-center w3-padding" style="background:#ff4524; color:white; margin-top:20px; border-top:3px solid #222;">
+  <p class="w3-small">Créé par Bayram GUZEL • 2025</p>
+</footer>
 
 </body>
 </html>

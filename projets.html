@@ -4,80 +4,51 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projets</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <style>
-    body{
-      margin:0;
-      font-family:Arial;
-      background:#f2f2f2;
-      color:#222;
-    }
-    header{
-      background:rgb(255, 69, 36);
-      color: white;
-      padding:15px;
-      text-align:center;
-      font-size:20px;
-      font-weight:bold;
-      border-bottom:1px solid #ddd;
-    }
-    nav{
-      text-align:center;
-      margin-top:10px;
-    }
-    nav a{
-      margin:0 10px;
-      text-decoration:none;
-      color:#444;
-      font-weight:600;
-      font-size:14px;
-    }
-    .section{padding:25px;}
-    .card{
-      background:white;
-      padding:15px;
-      border:1px solid #ddd;
-      border-radius:6px;
-      margin-bottom:15px;
-    }
-    .thumb{height:80px;
-      background:#dbe4ff;
-      border-radius:6px;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      text-align: center;
-      font-weight:bold;
-      color:#3353ff;
-    }
+    body{font-family:Arial; color:#222; background:#f9f9f9;}
+    .nav a:hover{color:#ff4524;}
+    .section{margin:20px; border-radius:8px;}
+    .card{margin-bottom:20px; padding:20px; border-left:5px solid #ff4524; background:#fff;}
+    h3{color:#ff4524;}
+    p, li{line-height:1.6;}
+    .project-link{color:#3353ff; text-decoration:underline;}
+    .project-link:hover{color:#ff4524;}
   </style>
 </head>
 <body>
 
-<header>Projets</header>
+<header class="w3-container w3-padding w3-center" style="background:#ff4524; color:white; border-bottom:3px solid #222;">
+  <h2 class="w3-margin-0">Projets</h2>
+</header>
 
-<nav>
-  <a href="index.html">Accueil</a>
-  <a href="projets.html">Projets</a>
-  <a href="competences.html">Compétences</a>
-  <a href="contact.html">Contact</a>
+<nav class="w3-center w3-padding nav">
+  <a class="w3-margin w3-button w3-white w3-border" href="index.html">Accueil</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="projets.html">Projets</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="competences.html">Compétences</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="contact.html">Contact</a>
 </nav>
 
-<div class="section">
-  <div class="card">
-    <div class="thumb">Projet 1:<br/>Affichage en temps réel du prix du Bitcoin avec ESP32</div>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </div>
-
-  <div class="card">
-    <div class="thumb">Projet 2</div>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </div>
-
-  <div class="card">
-    <div class="thumb">Projet 3</div>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </div>
+<div class="section card">
+  <h3>Projet 1 - Affichage en temps réel du prix du Bitcoin (ESP32 et écran OLED)</h3>
+  <img style="width: 17%; height: auto; display: block; margin-left: auto; margin-right: auto;" src="btc.png" alt="Image du projet" />
+  <p>Ce projet est basé sur un microcontrôleur Arduino associé à un écran OLED pour afficher le prix du Bitcoin en temps réel. Grâce à une API, les valeurs se mettent à jour automatiquement, ce qui permet de suivre les fluctuations instantanément. J’ai appris à gérer les requêtes API, la communication I2C et l’affichage dynamique sur OLED. Ce projet combine programmation, électronique et visualisation de données.</p>
 </div>
+
+<div class="section card">
+  <h3>Projet 2 - Store motorisé contrôlé à distance (ESP8266)</h3>
+  <img style="width: 17%; height: auto; display: block; margin-left: auto; margin-right: auto;" src="store.png" alt="Image du projet" />
+  <p>Ce projet permet de contrôler un store motorisé à distance via un module ESP8266 connecté au WiFi. J’ai créé une interface simple pour ouvrir ou fermer le store depuis un smartphone. J'ai créé des raccourcis pour un contrôle par voix. Ce projet m’a fait découvrir l’IoT, la communication réseau et le contrôle à distance. Il combine matériel, logiciel et ergonomie pour un usage pratique.</p>
+</div>
+
+<div class="section card">
+  <h3>Projet 3 - Site web HTML/CSS</h3>
+  <p>L’an dernier, j’ai réalisé un site web complet uniquement en HTML et CSS pour un projet scolaire. Le site met en avant un design clair et responsive, avec des sections bien structurées et des éléments interactifs simples. J’ai appris à organiser le contenu, à styliser les éléments et à rendre l’expérience utilisateur agréable. Vous pouvez consulter le site ici : <a href="https://ecotechbeziers.netlify.app/" class="project-link" target="_blank">Voir le site</a>. C’est un exemple de ce que je peux produire en front-end.</p>
+</div>
+
+<footer class="w3-container w3-center w3-padding" style="background:#ff4524; color:white; margin-top:20px; border-top:3px solid #222;">
+  <p class="w3-small">Créé par Bayram GUZEL • 2025</p>
+</footer>
 
 </body>
 </html>

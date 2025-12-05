@@ -4,61 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Accueil</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
   <style>
-    body{
-      margin:0;
-      font-family:Arial;
-      background:#f2f2f2;
-      color:#222
-    }
-    header{
-      background:rgb(255, 69, 36);
-      color: white;
-      padding:15px;
-      text-align:center;
-      font-size:20px;
-      font-weight:bold;
-      border-bottom:1px solid #ddd;
-    }
-    nav{
-      text-align:center;
-      margin-top:10px;
-    }
-    nav a{
-      margin:10px;
-      text-decoration:none;
-      color:#444;
-      font-weight:600;
-      font-size:14px;
-    }
-    .section{
-      padding:25px;
-      background-color: white;
-      margin-inline: 30px;
-      margin-top: 1em;
-      border-radius: 3px;
-      border-width: 2px;
-    }
-    h1{margin-top:0;
-      font-size:22px;
-    }
+    body{font-family:Arial; color:#222; background:#f9f9f9;}
+    .nav a:hover{color:#ff4524;}
+    .section{margin:20px; border-radius:8px;}
+    .card{margin-bottom:20px; padding:20px; border-left:5px solid #ff4524; background:#fff;}
+    h3{color:#ff4524;}
+    p, li{line-height:1.6;}
   </style>
 </head>
 <body>
 
-<header>Portfolio</header>
+<header class="w3-container w3-padding w3-center" style="background:#ff4524; color:white; border-bottom:3px solid #222;">
+  <h2 class="w3-margin-0">Portfolio</h2>
+</header>
 
-<nav>
-  <a href="index.html">Accueil</a>
-  <a href="projets.html">Projets</a>
-  <a href="competences.html">Compétences</a>
-  <a href="contact.html">Contact</a>
+<nav class="w3-center w3-padding nav">
+  <a class="w3-margin w3-button w3-white w3-border" href="index.html">Accueil</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="projets.html">Projets</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="competences.html">Compétences</a>
+  <a class="w3-margin w3-button w3-white w3-border" href="contact.html">Contact</a>
 </nav>
 
-<div class="section">
-  <h1>Bienvenue</h1>
-  <p>Bonjour,</p>
+<div class="section card">
+  <h3>Bienvenue</h3>
+  <p>Je m'appelle Bayram GUZEL. Je suis étudiant en STI2D. Mon portfolio contient mon parcours, mes projets et mes compétences. J’aime tout ce qui touche à la technologie, le web, le software et un peu d’électronique aussi.</p>
+  <p>Ici vous trouverez mes projets en HTML, CSS, Python, Arduino et plein d’autres trucs que je vais apprendre au fur et à mesure.</p>
 </div>
+
+<div class="section card">
+  <h3>Mes objectifs:</h3>
+  <ul>
+    <li>Améliorer mon niveau en développement web</li>
+    <li>Créer des projets propres et utiles</li>
+    <li>Monter un portfolio qui fait pro</li>
+    <li>Continuer à progresser en autonomie</li>
+  </ul>
+</div>
+
+<div class="section card">
+  <h3>Pourquoi ce portfolio ?</h3>
+  <p>Ce site me permet d’apprendre, de montrer ce que je fais, et d’avoir une base solide pour mes études, alternance ou métier dans la technologie.</p>
+</div>
+
+<footer class="w3-container w3-center w3-padding" style="background:#ff4524; color:white; margin-top:20px; border-top:3px solid #222;">
+  <p class="w3-small">Créé par Bayram GUZEL • 2025</p>
+</footer>
 
 </body>
 </html>
